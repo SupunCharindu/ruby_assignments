@@ -4,7 +4,7 @@ the modified string using a right shift.
 =end
 
 def cipher(string,shift)
-  modified_str = ''
+  modified_str = '' #empty string for letter push the values and put out put
 
   string.each_char do |char|
     ascii = char.ord #make string to ord value(ASCII)
