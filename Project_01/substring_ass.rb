@@ -6,7 +6,7 @@ def substrings(words, dictionary)
     # iterate over words array to find matches
     words.downcase.scan(word).each do |match|
       #learn new method .scan()
-    # fill the new result hash with the matching words and counts
+      #fill the new result hash with the matching words and counts
       result[word] += 1
     end
   end
